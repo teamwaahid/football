@@ -94,6 +94,29 @@ body{
     color: #6C6C6C;
 }
 
+/* Video Section Start */
+.video-section{
+    background-image: url(images/bg.jpg);
+    padding: 100px 0;
+}
+.football-video{
+    text-align: center;
+}
+.football-video h1{
+    color: #FFFFFF;
+    font-size: 34px;
+    margin-top: 0;
+}
+.line hr{
+    width: 45px;
+    border:2px solid rgba(243, 71, 71, 0.904);
+}
+.football-video p{
+    font-size: 18px;
+    color: #b6b2b2ee;
+    padding-bottom: 30px;
+}
+
 /* Footer Section Start */
 .footer-section{
     margin: 50px 0;
