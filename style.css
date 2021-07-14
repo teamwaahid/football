@@ -46,12 +46,12 @@ body{
 .fa-arrow-right{
     padding-left: 10px;
 }
-.hero-img{
+.img{
     width: 556px;
     height: 456px;
     position: relative; 
 }
-.container:hover .hero-img{
+.container:hover .img{
     animation: slider2 3s ease-in-out 0.2s
 }
 @keyframes slider2{
@@ -168,4 +168,60 @@ body{
 .footer-section p{
     font-size: 14px;
     margin-left: 30px;
+}
+
+/* Media Queries */
+/* For Mobile Device */
+@media only screen and (max-width:688px){
+    .container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0 20px;
+    }
+    .hero-paragraph {
+        font-size: 24px;
+        color: white;
+        margin: 0;
+    }
+    .img{
+        width: 380px;
+        height: 310px;
+        object-fit: cover;
+    }
+    .hero-img{
+        width: 100%;
+        height: 100%;
+        padding: 50px 0;
+    }
+    .players-blog{
+        margin: 20px 0; 
+        display: flex;
+        justify-content: center;
+    }
+    .player-content{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .video-section{
+        padding: 100px 0;
+    }
+    .football-video iframe{
+        width: 450px;
+    }
+    .trophy-section{
+        padding: 50px 0;
+        margin: 0;
+        text-align: center;
+    }
+    .all-trophy{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding-left: 30%;
+    }
+    .icons{
+        width: 40px;
+        position: relative;
+        display: flex;
+        left: 35%;
+    }
 }
