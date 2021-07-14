@@ -6,6 +6,7 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+
 /* Hero Section */
 .main-container{
     background-color: rgba(31, 31, 187, 0.877);
@@ -171,8 +172,11 @@ body{
 }
 
 /* Media Queries */
+/* -------------- */
+
 /* For Mobile Device */
 @media only screen and (max-width:688px){
+    /* Hero Section */
     .container{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -182,6 +186,10 @@ body{
         font-size: 24px;
         color: white;
         margin: 0;
+    }
+    .hero-paragraph a{
+        font-size: 10px;
+        padding: 10px 15px;
     }
     .img{
         width: 380px;
@@ -193,6 +201,8 @@ body{
         height: 100%;
         padding: 50px 0;
     }
+
+    /* Player Blog Section */
     .players-blog{
         margin: 20px 0; 
         display: flex;
@@ -202,12 +212,16 @@ body{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+
+    /* Video Section */
     .video-section{
         padding: 100px 0;
     }
     .football-video iframe{
         width: 450px;
     }
+
+    /* Trophy Section */
     .trophy-section{
         padding: 50px 0;
         margin: 0;
@@ -218,6 +232,8 @@ body{
         grid-template-columns: repeat(1,1fr);
         padding-left: 30%;
     }
+
+    /* Footer Section */
     .icons{
         width: 40px;
         position: relative;
