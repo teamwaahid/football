@@ -117,11 +117,37 @@ body{
     padding-bottom: 30px;
 }
 
-/* Footer Section Start */
-.footer-section{
-    margin: 50px 0;
+/* Trophy Section Start */
+.trophy-section{
+    padding: 80px 0;
+    margin: 0 100px;
+}
+.trophy-section h1{
+    font-size: 34px;
+    margin-left: 20px;
+}
+.all-trophy{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.trophy{
+    width: 222px;
     text-align: center;
     position: relative;
+}
+.trophy img{
+    padding-bottom: 15px;
+}
+.trophy p{
+    font-weight: 700;
+}
+
+/* Footer Section Start */
+.footer-section{
+    padding: 50px 0;
+    text-align: center;
+    position: relative;
+    background-color: #e9e6e6a9;
 }
 .footer-img{
     width: 280px;
